@@ -63,7 +63,8 @@ def sort_array_char_count(array)
    end
    
    def add_s(array)
-    array.each_with_index.collect do   |element, index|  
+    array.each_with_index.collect do   |element, index| 
+      if index != index[1]
      
     end
    end
