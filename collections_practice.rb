@@ -66,7 +66,7 @@ def sort_array_char_count(array)
     array.each_with_index.collect do   |element, index| 
        index.exclude?(index[1])
         "#{element}s"
-      end
+      
     end
    end
     
