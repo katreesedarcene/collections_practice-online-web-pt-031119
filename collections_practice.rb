@@ -67,7 +67,7 @@ def sort_array_char_count(array)
        if index != 1
         "#{element}s"
       else 
-         
+         element
       end
     end
    end
