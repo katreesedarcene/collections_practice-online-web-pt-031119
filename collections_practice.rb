@@ -64,8 +64,10 @@ def sort_array_char_count(array)
     
    end
    def add_s(array)
-     array.each_with_index.collect  |element, index|  
+     array.each_with_index.collect do   |element, index|  
      binding.pry
+    end
+   end
     
  end
         
