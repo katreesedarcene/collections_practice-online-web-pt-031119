@@ -64,9 +64,7 @@ def sort_array_char_count(array)
    end
    def add_s(array)
     array.each_with_index.collect { |element, index| }
-     "#{animal} number #{index + 1}"
+     "#{element}s"
     
-      
-         
     
    end
