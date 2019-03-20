@@ -66,5 +66,5 @@ def sort_array_char_count(array)
      array.each_with_index.collect { |element, index| }
      "#{element}s"
         end
-      end
+      
     end
