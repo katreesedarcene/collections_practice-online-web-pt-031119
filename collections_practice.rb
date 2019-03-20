@@ -59,7 +59,11 @@ def sort_array_char_count(array)
   end
   
   def sum_array(array)
-     array.inject(0){|sum,x| sum + x }
+    # array.inject(0) {|sum,x| sum + x }
+     
+     array.inject(0) do |sum, x| 
+       sum + x
+     end
     
    end
    def add_s(array)
