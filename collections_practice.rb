@@ -59,17 +59,13 @@ def sort_array_char_count(array)
   end
   
   def sum_array(array)
-    # array.inject(0) {|sum,x| sum + x }
-     
-     array.inject(0) do |sum, x| 
-       if sum < x 
-         then do something
-       end
+    array.inject(0) {|sum,x| sum + x }
      end
     
    end
    def add_s(array)
-     array.each_with_index.collect { |element, index| "#{element}s" if element != index[1] }
+     array.each_with_index.collect  |element, index|  
+     binding.pry
     
  end
         
